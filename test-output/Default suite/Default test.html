@@ -1,0 +1,297 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 11 18:01:06 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>80 seconds (80677 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyValidCourseSearch()'><b>VerifyValidCourseSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the search results for a valid Course Search.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyValidCourseSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td><div><pre>java.lang.AssertionError: expected [1 event(s) returned.] but found [0 event(s) returned.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.CourseSearchPage.Assert_SearchResults(CourseSearchPage.java:126)
+	at core.Tests.IDPH.AdperPortal.VerifyValidCourseSearch(AdperPortal.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace711135305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace711135305'><pre>java.lang.AssertionError: expected [1 event(s) returned.] but found [0 event(s) returned.]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.CourseSearchPage.Assert_SearchResults(CourseSearchPage.java:126)
+	at core.Tests.IDPH.AdperPortal.VerifyValidCourseSearch(AdperPortal.java:251)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyPublicSearchClick()'><b>VerifyPublicSearchClick</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify in the Public Search Navigation.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyPublicSearchClick(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedLeftSideLinks()'><b>VerifyIsDisplayedLeftSideLinks</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify whether the ADPER home page is displayed or not<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedLeftSideLinks(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyValidPublicSearch()'><b>VerifyValidPublicSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify that you have entered a valid licence number and that the search results are correct.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyValidPublicSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifySearchResultsExport()'><b>VerifySearchResultsExport</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Export Search Results<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifySearchResultsExport(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyResetButton()'><b>VerifyResetButton</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify, click the Reset button to clear the Search Results.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyResetButton(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedCourseSearchProgram()'><b>VerifyIsDisplayedCourseSearchProgram</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Program dropdown options on the Course Search Page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedCourseSearchProgram(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyWithoutInputSearch()'><b>VerifyWithoutInputSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify for an empty search in the public search page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyWithoutInputSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyPublicDetails()'><b>VerifyPublicDetails</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the display fields on the Public Search Detail Page by clicking the 'Details' link in the 'Public details' column.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyPublicDetails(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>6</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifySignInPage()'><b>VerifySignInPage</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Sign in Page Display fields<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifySignInPage(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIDPHRegulatoryTab()'><b>VerifyIDPHRegulatoryTab</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: If you click the IDPH REGULATORY PROGRAMS link, the system must proceed to the next tab.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIDPHRegulatoryTab(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>7</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedHomePageText()'><b>VerifyIsDisplayedHomePageText</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify the display fields on the Home Page<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedHomePageText(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyWithoutInputCourseSearch()'><b>VerifyWithoutInputCourseSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Click the 'Search' button without selecting any of the Course search options.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyWithoutInputCourseSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchReturn()'><b>VerifyCourseSearchReturn</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Course Search Return button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchReturn(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ADPER_InvalidLoginCredentials()'><b>ADPER_InvalidLoginCredentials</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Login with Invalid username and password.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ADPER_InvalidLoginCredentials(java.lang.reflect.Method)</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchExportbutton()'><b>VerifyCourseSearchExportbutton</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Course Search Export button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchExportbutton(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchReset()'><b>VerifyCourseSearchReset</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Course Search Reset button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchReset(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.load_ADPER_Portal()'><b>load_ADPER_Portal</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the ADPER URL is loaded in the browser.<br>Parameters: public void core.Tests.IDPH.AdperPortal.load_ADPER_Portal(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>13</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyHomePageLinks()'><b>VerifyHomePageLinks</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify that the ADPER portal displays the links<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyHomePageLinks(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchButtons()'><b>VerifyCourseSearchButtons</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify It must navigate to the Course search criteria Page by clicking the 'Course search' button.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchButtons(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchDropdowns()'><b>VerifyCourseSearchDropdowns</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Course Search display fields<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchDropdowns(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyInvalidSearch()'><b>VerifyInvalidSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify By entering an invalid licence number and clicking the 'Search' button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyInvalidSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ADPER_ValidLoginCredentials()'><b>ADPER_ValidLoginCredentials</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Login with valid username and password.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ADPER_ValidLoginCredentials(java.lang.reflect.Method)</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifySecondInvalidSearch()'><b>VerifySecondInvalidSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify By entering an invalid search input value and clicking the 'Search' button.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifySecondInvalidSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyEventsReturns()'><b>VerifyEventsReturns</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Course Search a pop-up<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyEventsReturns(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedPublicSearchFields()'><b>VerifyIsDisplayedPublicSearchFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify whether or not the Public Search Fields are displayed.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedPublicSearchFields(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyPublicDetailsBackButtonNav()'><b>VerifyPublicDetailsBackButtonNav</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify that clicking the Back button takes you to the Search Results Page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyPublicDetailsBackButtonNav(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>8</td>
+<td>core.Tests.IDPH.AdperPortal@7c24b813</td></tr>
+</table><p>
+</body>
+</html>

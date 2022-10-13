@@ -1,0 +1,469 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>78/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 13 12:55:16 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>232 seconds (232563 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.WithoutValuesApplyforProgram()'><b>WithoutValuesApplyforProgram</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Apply Program without entering any information.<br>Parameters: public void core.Tests.IDPH.AdperPortal.WithoutValuesApplyforProgram(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyForProgramDisplayFields()'><b>ApplyForProgramDisplayFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify whether the Apply for a Program Fields are displayed or not.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyForProgramDisplayFields(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyForProgramNavigation()'><b>ApplyForProgramNavigation</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Apply Program Navigation<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyForProgramNavigation(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.AttchmentDisplayFields()'><b>AttchmentDisplayFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the attachment display fields and attachment types.<br>Parameters: public void core.Tests.IDPH.AdperPortal.AttchmentDisplayFields(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTester_Affirmations_RequiredFields()'><b>BackflowTester_Affirmations_RequiredFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Backflow Tester Affirmations Required Fields<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTester_Affirmations_RequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyforProgramDuplicate()'><b>ApplyforProgramDuplicate</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to apply Duplicate BackFlow Tester Program.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyforProgramDuplicate(java.lang.reflect.Method)</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.OutOfStateCredentials_InvalidCourseDate()'><b>OutOfStateCredentials_InvalidCourseDate</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify an alert message Out of State Courses must be valid<br>Parameters: public void core.Tests.IDPH.AdperPortal.OutOfStateCredentials_InvalidCourseDate(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyPublicDetailsBackButtonNav()'><b>VerifyPublicDetailsBackButtonNav</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify that clicking the Back button takes you to the Search Results Page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyPublicDetailsBackButtonNav(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>12</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyBackFlowPayment()'><b>VerifyBackFlowPayment</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the BackFlow Tester Program Fees.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyBackFlowPayment(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyWithoutInputCourseSearch()'><b>VerifyWithoutInputCourseSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Click the 'Search' button without selecting any of the Course search options.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyWithoutInputCourseSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.InvalidCardNumPayment()'><b>InvalidCardNumPayment</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to enter Invalid Card Number for the payment information.<br>Parameters: public void core.Tests.IDPH.AdperPortal.InvalidCardNumPayment(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTester_OutOfStateCredentials_YES()'><b>BackflowTester_OutOfStateCredentials_YES</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify If all of the Back Flow Tester Out of State Credentials or Training questions are answered 'yes', then the Back Flow Tester Out of State Credentials or Training text fields must be required.<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTester_OutOfStateCredentials_YES(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyResetButton()'><b>VerifyResetButton</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify, click the Reset button to clear the Search Results.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyResetButton(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyforProgramPopup()'><b>ApplyforProgramPopup</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify for valid Program Data and Confirm Message Popup.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyforProgramPopup(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedCourseSearchProgram()'><b>VerifyIsDisplayedCourseSearchProgram</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Program dropdown options on the Course Search Page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedCourseSearchProgram(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyInCompleteApplyProgramDropdownValues()'><b>VerifyInCompleteApplyProgramDropdownValues</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the alert message if you try to apply for a program without completing the Application Forms.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyInCompleteApplyProgramDropdownValues(java.lang.reflect.Method)</td>
+<td></td>
+<td>5</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.NavTermsAndConditions()'><b>NavTermsAndConditions</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify If you click the Continue button, you should be taken to the Terms and Conditions page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.NavTermsAndConditions(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>4</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchDropdowns()'><b>VerifyCourseSearchDropdowns</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Course Search display fields<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchDropdowns(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTesterThirdPartyCertification()'><b>BackflowTesterThirdPartyCertification</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Application Form Third-Party Certification Questions for Backflow Testers<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTesterThirdPartyCertification(java.lang.reflect.Method)</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.WithoutProgramDetailApplyforProgram()'><b>WithoutProgramDetailApplyforProgram</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Apply for a Program without entering a value in the Program Detail<br>Parameters: public void core.Tests.IDPH.AdperPortal.WithoutProgramDetailApplyforProgram(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.OutOfStateCredentials_ExpirationDate()'><b>OutOfStateCredentials_ExpirationDate</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To Verify an alert message as Certification cannot be expired.<br>Parameters: public void core.Tests.IDPH.AdperPortal.OutOfStateCredentials_ExpirationDate(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.NavPayLaterAccept()'><b>NavPayLaterAccept</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To Verify, choose a value from the Paylater dropdown and click the Pay Later button. The system must display an alert and you must accept it.<br>Parameters: public void core.Tests.IDPH.AdperPortal.NavPayLaterAccept(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyPayNow()'><b>VerifyPayNow</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify If you click the Pay Now button, you must be taken to another Make Payment page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyPayNow(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>8</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchButtons()'><b>VerifyCourseSearchButtons</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify It must navigate to the Course search criteria Page by clicking the 'Course search' button.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchButtons(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ReviewPaymentConfirm()'><b>ReviewPaymentConfirm</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To Review the Payment and Click Confirm to Proceed.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ReviewPaymentConfirm(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>14</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifySignInPage()'><b>VerifySignInPage</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Sign in Page Display fields<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifySignInPage(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ADPER_ValidLoginCredentials()'><b>ADPER_ValidLoginCredentials</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Login with valid username and password.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ADPER_ValidLoginCredentials(java.lang.reflect.Method)</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTester_OutOfStateCredentials_RequiredFields()'><b>BackflowTester_OutOfStateCredentials_RequiredFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Back Flow Tester Out of State Credentials or Training  Required Fields<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTester_OutOfStateCredentials_RequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTester_Affirmations_YES()'><b>BackflowTester_Affirmations_YES</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify If all of the affirmation questions are answered 'yes', then the affirmation text fields must be required.<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTester_Affirmations_YES(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>4</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.PayNowbutton()'><b>PayNowbutton</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify the Iowa Payment Website.<br>Parameters: public void core.Tests.IDPH.AdperPortal.PayNowbutton(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedHomePageText()'><b>VerifyIsDisplayedHomePageText</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify the display fields on the Home Page<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedHomePageText(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTesterAffirmations()'><b>BackflowTesterAffirmations</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Backflow Tester program Affirmations.<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTesterAffirmations(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.UploadNewAttachments()'><b>UploadNewAttachments</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the upload of attachments with documents.<br>Parameters: public void core.Tests.IDPH.AdperPortal.UploadNewAttachments(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>8</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyHomePageLinks()'><b>VerifyHomePageLinks</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify that the ADPER portal displays the links<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyHomePageLinks(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.PaymentConfirmation()'><b>PaymentConfirmation</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To Verify Payment Confirmation Page<br>Parameters: public void core.Tests.IDPH.AdperPortal.PaymentConfirmation(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.load_ADPER_Portal()'><b>load_ADPER_Portal</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the ADPER URL is loaded in the browser.<br>Parameters: public void core.Tests.IDPH.AdperPortal.load_ADPER_Portal(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>17</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyPublicDetails()'><b>VerifyPublicDetails</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the display fields on the Public Search Detail Page by clicking the 'Details' link in the 'Public details' column.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyPublicDetails(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>8</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplicationFormProgramType()'><b>ApplicationFormProgramType</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify The Program Type and Subtype must be displayed or not based on the ApplyProgram page selection.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplicationFormProgramType(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ThridPartyCertification_ExpirationDate()'><b>ThridPartyCertification_ExpirationDate</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify if the expiration date, entered as a date in the past, requires an alert to be displayed or not.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ThridPartyCertification_ExpirationDate(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.PayLaterOptions()'><b>PayLaterOptions</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Pay Later Options<br>Parameters: public void core.Tests.IDPH.AdperPortal.PayLaterOptions(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyforProgramPopupCancelbutton()'><b>ApplyforProgramPopupCancelbutton</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify The ApplyProgram Page must remain after clicking the Cancel button in the Popup.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyforProgramPopupCancelbutton(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedLeftSideLinks()'><b>VerifyIsDisplayedLeftSideLinks</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To verify whether the ADPER home page is displayed or not<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedLeftSideLinks(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyForProgramCancel()'><b>ApplyForProgramCancel</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify By clicking the Cancel button in the Apply for a Program section, you should be directed to My Programs.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyForProgramCancel(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.MakePaymentAlert()'><b>MakePaymentAlert</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To Verify Make Payment Alert Popup. Accept Alert it should Navigate to Iowa Payment Website.<br>Parameters: public void core.Tests.IDPH.AdperPortal.MakePaymentAlert(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>7</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyProgramDropdownValues()'><b>VerifyProgramDropdownValues</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: In the Apply Program Page, verify the Program dropdown values.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyProgramDropdownValues(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ValidAgreeTerms()'><b>ValidAgreeTerms</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify If you agree to the Terms and Conditions and click the Continue button, you must be taken to the Payment Page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ValidAgreeTerms(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyWithoutInputSearch()'><b>VerifyWithoutInputSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify for an empty search in the public search page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyWithoutInputSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIsDisplayedPublicSearchFields()'><b>VerifyIsDisplayedPublicSearchFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify whether or not the Public Search Fields are displayed.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedPublicSearchFields(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.PayLaterAlertDismiss()'><b>PayLaterAlertDismiss</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Dismiss the Alert Message by clicking the Pay Later button.<br>Parameters: public void core.Tests.IDPH.AdperPortal.PayLaterAlertDismiss(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.NavPayLaterDismiss()'><b>NavPayLaterDismiss</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To Verify, choose a value from the Paylater dropdown and click the Pay Later button. The system must display an alert and then click Dismiss.<br>Parameters: public void core.Tests.IDPH.AdperPortal.NavPayLaterDismiss(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifySearchResultsExport()'><b>VerifySearchResultsExport</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Export Search Results<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifySearchResultsExport(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ADPER_InvalidLoginCredentials()'><b>ADPER_InvalidLoginCredentials</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Login with Invalid username and password.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ADPER_InvalidLoginCredentials(java.lang.reflect.Method)</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.WithoutAgreeTerms()'><b>WithoutAgreeTerms</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify without agreeing to the terms and conditions, try to click the continue button.<br>Parameters: public void core.Tests.IDPH.AdperPortal.WithoutAgreeTerms(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyforProgramPopupOKbutton()'><b>ApplyforProgramPopupOKbutton</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify By clicking the OK button in the Popup, users must be taken to the Application Form Page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyforProgramPopupOKbutton(java.lang.reflect.Method)</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.InvalidPaymentContinue()'><b>InvalidPaymentContinue</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify that you can click the Continue button without entering your payment information.<br>Parameters: public void core.Tests.IDPH.AdperPortal.InvalidPaymentContinue(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifySecondInvalidSearch()'><b>VerifySecondInvalidSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify By entering an invalid search input value and clicking the 'Search' button.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifySecondInvalidSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTesterOutOfStateCredentials()'><b>BackflowTesterOutOfStateCredentials</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Back Flow Tester Out of State Credentials or Training Questions.<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTesterOutOfStateCredentials(java.lang.reflect.Method)</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.UploadAttachmentsPopupMessage()'><b>UploadAttachmentsPopupMessage</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify without submitting a file Try to save an attachment<br>Parameters: public void core.Tests.IDPH.AdperPortal.UploadAttachmentsPopupMessage(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyValidCourseSearch()'><b>VerifyValidCourseSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the search results for a valid Course Search.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyValidCourseSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.TermsAndConditionsText()'><b>TermsAndConditionsText</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Terms and Conditions Page<br>Parameters: public void core.Tests.IDPH.AdperPortal.TermsAndConditionsText(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.PayLaterAlertAccept()'><b>PayLaterAlertAccept</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to Accept the Alert Message by clicking the Pay Later button.<br>Parameters: public void core.Tests.IDPH.AdperPortal.PayLaterAlertAccept(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchExportbutton()'><b>VerifyCourseSearchExportbutton</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Course Search Export button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchExportbutton(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplyForProgramEdit()'><b>ApplyForProgramEdit</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify By clicking the OK button in the Incomplete popup on the Terms Page, you should be directed to My Programs.<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplyForProgramEdit(java.lang.reflect.Method)</td>
+<td></td>
+<td>1</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchReset()'><b>VerifyCourseSearchReset</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Course Search Reset button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchReset(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyEventsReturns()'><b>VerifyEventsReturns</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Course Search a pop-up<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyEventsReturns(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyCourseSearchReturn()'><b>VerifyCourseSearchReturn</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Course Search Return button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchReturn(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTester_ThirdPartyCertification_RequiredFields()'><b>BackflowTester_ThirdPartyCertification_RequiredFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify Backflow Tester Third Party Certification  Required Fields<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTester_ThirdPartyCertification_RequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.BackflowTester_ThridPartyCertification_YES()'><b>BackflowTester_ThridPartyCertification_YES</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify If all of the Third Party Certification questions are answered 'yes', then the Third Party Certification text fields must be required.<br>Parameters: public void core.Tests.IDPH.AdperPortal.BackflowTester_ThridPartyCertification_YES(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyPublicSearchClick()'><b>VerifyPublicSearchClick</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify in the Public Search Navigation.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyPublicSearchClick(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyBackFlowProgramDetailsDropdownValues()'><b>VerifyBackFlowProgramDetailsDropdownValues</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: In the Apply Program Page, verify the BackFlow Tester Program Detail dropdown values.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyBackFlowProgramDetailsDropdownValues(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyInvalidSearch()'><b>VerifyInvalidSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify By entering an invalid licence number and clicking the 'Search' button<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyInvalidSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyMakePaymentFields()'><b>VerifyMakePaymentFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Make Payment Page display fields.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyMakePaymentFields(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>2</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyIDPHRegulatoryTab()'><b>VerifyIDPHRegulatoryTab</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: If you click the IDPH REGULATORY PROGRAMS link, the system must proceed to the next tab.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyIDPHRegulatoryTab(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>14</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ApplicationFormDisplayFields()'><b>ApplicationFormDisplayFields</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the display Fields on the Application Form<br>Parameters: public void core.Tests.IDPH.AdperPortal.ApplicationFormDisplayFields(java.lang.reflect.Method)</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.ValidPaymentContinue()'><b>ValidPaymentContinue</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify to enter valid payment information to proceed<br>Parameters: public void core.Tests.IDPH.AdperPortal.ValidPaymentContinue(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>3</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.NavPaymentReceiptDetails()'><b>NavPaymentReceiptDetails</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: To Verify If Payment Successful system must navigate to Payment Receipt Page.<br>Parameters: public void core.Tests.IDPH.AdperPortal.NavPaymentReceiptDetails(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException</td>
+<td></td>
+<td>12</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.AttachmentsDelete()'><b>AttachmentsDelete</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify the Delete button in the attachments.<br>Parameters: public void core.Tests.IDPH.AdperPortal.AttachmentsDelete(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>0</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+<tr>
+<td title='core.Tests.IDPH.AdperPortal.VerifyValidPublicSearch()'><b>VerifyValidPublicSearch</b><br>Test class: core.Tests.IDPH.AdperPortal<br>Test method: Verify that you have entered a valid licence number and that the search results are correct.<br>Parameters: public void core.Tests.IDPH.AdperPortal.VerifyValidPublicSearch(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>5</td>
+<td>core.Tests.IDPH.AdperPortal@32502377</td></tr>
+</table><p>
+</body>
+</html>
