@@ -685,7 +685,7 @@ public class BackFlowTester extends BaseTest {
 	}
 
 	@Test(priority = 53, description = "Verify to Apply Duplicate Licensing Program ", enabled = true)
-	public void ApplyforProgramDuplicate(Method method) {
+	public void ApplyforProgramDuplicate(Method method) throws InterruptedException {
 
 		ExtentTestManager.startTest(method.getName(), "Verify to Apply Duplicate Program");
 		ExcelUtil.setCurrentRow(28, 3);
