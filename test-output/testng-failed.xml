@@ -3,15 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="core.Tests.IDPH.AdperPortal">
+      <class name="core.Tests.IDPH.IDPHPortalTest">
         <methods>
+          <include name="EMSStudent_EMSProvider_CourseSelectionDropd" invocation-numbers="0"/>
           <include name="teardown"/>
+          <include name="EMSStudent_UploadAttachments" invocation-numbers="0"/>
+          <include name="EMSStudent_EMSProvider_Program" invocation-numbers="0"/>
           <include name="setupTestData"/>
           <include name="methodLevelSetup"/>
           <include name="classLevelSetup"/>
-          <include name="VerifyValidCourseSearch" invocation-numbers="0"/>
+          <include name="EMSStudent_Paramedic" invocation-numbers="0"/>
+          <include name="Valid_AgreeTerms_EMSStudent" invocation-numbers="0"/>
+          <include name="VerifyToApply_EMSStudent_EMSProvider" invocation-numbers="0"/>
+          <include name="Verify_EMSStudent_ApplicationForms" invocation-numbers="0"/>
         </methods>
-      </class> <!-- core.Tests.IDPH.AdperPortal -->
+      </class> <!-- core.Tests.IDPH.IDPHPortalTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

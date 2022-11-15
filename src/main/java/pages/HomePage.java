@@ -68,11 +68,6 @@ public class HomePage extends BasePage {
 		return new LoginPage(driver);
 	}
 
-	public NewUserRegistrationPage NavnewUserRegistration() {
-		click(newUserRegistration);
-		return new NewUserRegistrationPage(driver);
-	}
-
 	public void IsDisplayedLeftSideLinks() {
 		Assert.assertTrue(isDisplayed(home));
 		Assert.assertTrue(isDisplayed(publicSearch));

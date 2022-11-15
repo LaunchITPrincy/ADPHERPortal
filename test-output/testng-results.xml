@@ -1,1195 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="78" passed="78" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-13T12:55:16 IST" name="Suite" finished-at="2022-10-13T12:59:09 IST" duration-ms="232563">
+  <suite started-at="2022-11-09T13:56:45 IST" name="Default suite" finished-at="2022-11-09T13:58:17 IST" duration-ms="91123">
     <groups>
     </groups>
-    <test started-at="2022-10-13T12:55:16 IST" name="Test" finished-at="2022-10-13T12:59:09 IST" duration-ms="232563">
-      <class name="core.Tests.IDPH.AdperPortal">
-        <test-method is-config="true" signature="setupTestData()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:16 IST" name="setupTestData" finished-at="2022-10-13T12:55:22 IST" duration-ms="5341" status="PASS">
+    <test started-at="2022-11-09T13:56:45 IST" name="Default test" finished-at="2022-11-09T13:58:17 IST" duration-ms="91123">
+      <class name="core.Tests.IDPH.IDPHPortalTest">
+        <test-method is-config="true" signature="setupTestData()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:56:45 IST" name="setupTestData" finished-at="2022-11-09T13:56:48 IST" duration-ms="2573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTestData -->
-        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:22 IST" name="classLevelSetup" finished-at="2022-10-13T12:55:31 IST" duration-ms="8921" status="PASS">
+        <test-method is-config="true" signature="classLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:56:48 IST" name="classLevelSetup" finished-at="2022-11-09T13:56:59 IST" duration-ms="10933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classLevelSetup -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:31 IST" name="methodLevelSetup" finished-at="2022-10-13T12:55:31 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:56:59 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:00 IST" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="load_ADPER_Portal(java.lang.reflect.Method)[pri:1, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:31 IST" name="load_ADPER_Portal" description="Verify the ADPER URL is loaded in the browser." finished-at="2022-10-13T12:55:48 IST" duration-ms="17473" status="PASS">
+        <test-method signature="load_ADPER_Portal(java.lang.reflect.Method)[pri:1, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:00 IST" name="load_ADPER_Portal" description="Verify the ADPER URL is loaded in the browser." finished-at="2022-11-09T13:57:15 IST" duration-ms="15443" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.load_ADPER_Portal(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.load_ADPER_Portal(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load_ADPER_Portal -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:49 IST" name="methodLevelSetup" finished-at="2022-10-13T12:55:49 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:15 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:15 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyHomePageLinks(java.lang.reflect.Method)[pri:2, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:49 IST" name="VerifyHomePageLinks" description="To verify that the ADPER portal displays the links" finished-at="2022-10-13T12:55:50 IST" duration-ms="921" status="PASS">
+        <test-method signature="ADPER_ValidLoginCredentials(java.lang.reflect.Method)[pri:27, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:15 IST" name="ADPER_ValidLoginCredentials" description="Verify to Login with valid username and password." finished-at="2022-11-09T13:57:21 IST" duration-ms="5566" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyHomePageLinks(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyHomePageLinks -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:50 IST" name="methodLevelSetup" finished-at="2022-10-13T12:55:50 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyIsDisplayedLeftSideLinks(java.lang.reflect.Method)[pri:3, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:50 IST" name="VerifyIsDisplayedLeftSideLinks" description="To verify whether the ADPER home page is displayed or not" finished-at="2022-10-13T12:55:50 IST" duration-ms="171" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedLeftSideLinks(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyIsDisplayedLeftSideLinks -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:50 IST" name="methodLevelSetup" finished-at="2022-10-13T12:55:50 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyIsDisplayedHomePageText(java.lang.reflect.Method)[pri:4, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:50 IST" name="VerifyIsDisplayedHomePageText" description="To verify the display fields on the Home Page" finished-at="2022-10-13T12:55:52 IST" duration-ms="1585" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedHomePageText(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyIsDisplayedHomePageText -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:52 IST" name="methodLevelSetup" finished-at="2022-10-13T12:55:52 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyIDPHRegulatoryTab(java.lang.reflect.Method)[pri:5, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:55:52 IST" name="VerifyIDPHRegulatoryTab" description="If you click the IDPH REGULATORY PROGRAMS link, the system must proceed to the next tab." finished-at="2022-10-13T12:56:07 IST" duration-ms="14472" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyIDPHRegulatoryTab(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyIDPHRegulatoryTab -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:07 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:07 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyPublicSearchClick(java.lang.reflect.Method)[pri:6, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:07 IST" name="VerifyPublicSearchClick" description="Verify in the Public Search Navigation." finished-at="2022-10-13T12:56:09 IST" duration-ms="2399" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyPublicSearchClick(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyPublicSearchClick -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:09 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:09 IST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyIsDisplayedPublicSearchFields(java.lang.reflect.Method)[pri:7, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:09 IST" name="VerifyIsDisplayedPublicSearchFields" description="Verify whether or not the Public Search Fields are displayed." finished-at="2022-10-13T12:56:11 IST" duration-ms="1831" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedPublicSearchFields(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyIsDisplayedPublicSearchFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:11 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:11 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyWithoutInputSearch(java.lang.reflect.Method)[pri:8, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:11 IST" name="VerifyWithoutInputSearch" description="Verify for an empty search in the public search page." finished-at="2022-10-13T12:56:11 IST" duration-ms="235" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyWithoutInputSearch(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyWithoutInputSearch -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:12 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:12 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyValidPublicSearch(java.lang.reflect.Method)[pri:9, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:12 IST" name="VerifyValidPublicSearch" description="Verify that you have entered a valid licence number and that the search results are correct." finished-at="2022-10-13T12:56:17 IST" duration-ms="5716" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyValidPublicSearch(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyValidPublicSearch -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:17 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:17 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifySearchResultsExport(java.lang.reflect.Method)[pri:10, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:17 IST" name="VerifySearchResultsExport" description="Verify to Export Search Results" finished-at="2022-10-13T12:56:18 IST" duration-ms="258" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifySearchResultsExport(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySearchResultsExport -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:18 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:18 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyPublicDetails(java.lang.reflect.Method)[pri:11, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:18 IST" name="VerifyPublicDetails" description="Verify the display fields on the Public Search Detail Page by clicking the &#039;Details&#039; link in the &#039;Public details&#039; column." finished-at="2022-10-13T12:56:26 IST" duration-ms="8794" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyPublicDetails(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyPublicDetails -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:27 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:27 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyPublicDetailsBackButtonNav(java.lang.reflect.Method)[pri:12, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:27 IST" name="VerifyPublicDetailsBackButtonNav" description="Verify that clicking the Back button takes you to the Search Results Page." finished-at="2022-10-13T12:56:39 IST" duration-ms="12562" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyPublicDetailsBackButtonNav(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyPublicDetailsBackButtonNav -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:39 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:39 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyResetButton(java.lang.reflect.Method)[pri:13, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:39 IST" name="VerifyResetButton" description="To verify, click the Reset button to clear the Search Results." finished-at="2022-10-13T12:56:39 IST" duration-ms="121" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyResetButton(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyResetButton -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:39 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:39 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyInvalidSearch(java.lang.reflect.Method)[pri:14, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:39 IST" name="VerifyInvalidSearch" description="Verify By entering an invalid licence number and clicking the &#039;Search&#039; button" finished-at="2022-10-13T12:56:42 IST" duration-ms="2351" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyInvalidSearch(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyInvalidSearch -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:42 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:42 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifySecondInvalidSearch(java.lang.reflect.Method)[pri:15, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:42 IST" name="VerifySecondInvalidSearch" description="Verify By entering an invalid search input value and clicking the &#039;Search&#039; button." finished-at="2022-10-13T12:56:42 IST" duration-ms="440" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifySecondInvalidSearch(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySecondInvalidSearch -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:42 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:42 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyCourseSearchButtons(java.lang.reflect.Method)[pri:16, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:42 IST" name="VerifyCourseSearchButtons" description="Verify It must navigate to the Course search criteria Page by clicking the &#039;Course search&#039; button." finished-at="2022-10-13T12:56:43 IST" duration-ms="433" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchButtons(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCourseSearchButtons -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:43 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:43 IST" duration-ms="36" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyCourseSearchDropdowns(java.lang.reflect.Method)[pri:17, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:43 IST" name="VerifyCourseSearchDropdowns" description="Verify the Course Search display fields" finished-at="2022-10-13T12:56:43 IST" duration-ms="465" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchDropdowns(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCourseSearchDropdowns -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:43 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:43 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyIsDisplayedCourseSearchProgram(java.lang.reflect.Method)[pri:18, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:43 IST" name="VerifyIsDisplayedCourseSearchProgram" description="Verify the Program dropdown options on the Course Search Page." finished-at="2022-10-13T12:56:44 IST" duration-ms="814" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyIsDisplayedCourseSearchProgram(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyIsDisplayedCourseSearchProgram -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:44 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:44 IST" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyWithoutInputCourseSearch(java.lang.reflect.Method)[pri:19, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:44 IST" name="VerifyWithoutInputCourseSearch" description="Verify to Click the &#039;Search&#039; button without selecting any of the Course search options." finished-at="2022-10-13T12:56:45 IST" duration-ms="591" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyWithoutInputCourseSearch(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyWithoutInputCourseSearch -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:45 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:45 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyValidCourseSearch(java.lang.reflect.Method)[pri:20, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:45 IST" name="VerifyValidCourseSearch" description="Verify the search results for a valid Course Search." finished-at="2022-10-13T12:56:49 IST" duration-ms="3973" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyValidCourseSearch(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyValidCourseSearch -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:49 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:49 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyEventsReturns(java.lang.reflect.Method)[pri:21, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:49 IST" name="VerifyEventsReturns" description="Verify the Course Search a pop-up" finished-at="2022-10-13T12:56:49 IST" duration-ms="357" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyEventsReturns(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEventsReturns -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:49 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:49 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyCourseSearchExportbutton(java.lang.reflect.Method)[pri:22, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:49 IST" name="VerifyCourseSearchExportbutton" description="Verify Course Search Export button" finished-at="2022-10-13T12:56:50 IST" duration-ms="256" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchExportbutton(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCourseSearchExportbutton -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:50 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:50 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyCourseSearchReset(java.lang.reflect.Method)[pri:23, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:50 IST" name="VerifyCourseSearchReset" description="Verify Course Search Reset button" finished-at="2022-10-13T12:56:50 IST" duration-ms="294" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchReset(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCourseSearchReset -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:50 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:50 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyCourseSearchReturn(java.lang.reflect.Method)[pri:24, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:50 IST" name="VerifyCourseSearchReturn" description="Verify Course Search Return button" finished-at="2022-10-13T12:56:53 IST" duration-ms="2947" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyCourseSearchReturn(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCourseSearchReturn -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:53 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:53 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifySignInPage(java.lang.reflect.Method)[pri:25, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:53 IST" name="VerifySignInPage" description="Verify the Sign in Page Display fields" finished-at="2022-10-13T12:56:54 IST" duration-ms="816" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifySignInPage(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifySignInPage -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:54 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:54 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ADPER_InvalidLoginCredentials(java.lang.reflect.Method)[pri:26, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:54 IST" name="ADPER_InvalidLoginCredentials" description="Verify to Login with Invalid username and password." finished-at="2022-10-13T12:56:56 IST" duration-ms="2428" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ADPER_InvalidLoginCredentials(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ADPER_InvalidLoginCredentials -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:56 IST" name="methodLevelSetup" finished-at="2022-10-13T12:56:56 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ADPER_ValidLoginCredentials(java.lang.reflect.Method)[pri:27, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:56:56 IST" name="ADPER_ValidLoginCredentials" description="Verify to Login with valid username and password." finished-at="2022-10-13T12:57:00 IST" duration-ms="3635" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ADPER_ValidLoginCredentials(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.ADPER_ValidLoginCredentials(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ADPER_ValidLoginCredentials -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:00 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:00 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:21 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:21 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyForProgramNavigation(java.lang.reflect.Method)[pri:28, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:00 IST" name="ApplyForProgramNavigation" description="Verify Apply Program Navigation" finished-at="2022-10-13T12:57:00 IST" duration-ms="308" status="PASS">
+        <test-method signature="VerifyToApply_EMSStudent_EMSProvider(java.lang.reflect.Method)[pri:108, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:21 IST" name="VerifyToApply_EMSStudent_EMSProvider" description="Verify to Apply EMS Provider Program with the subtype EMS Student" finished-at="2022-11-09T13:57:27 IST" duration-ms="6415" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyForProgramNavigation(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.VerifyToApply_EMSStudent_EMSProvider(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ApplyForProgramNavigation -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:00 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:00 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- VerifyToApply_EMSStudent_EMSProvider -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:27 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:27 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyForProgramDisplayFields(java.lang.reflect.Method)[pri:29, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:00 IST" name="ApplyForProgramDisplayFields" description="Verify whether the Apply for a Program Fields are displayed or not." finished-at="2022-10-13T12:57:01 IST" duration-ms="460" status="PASS">
+        <test-method signature="EMSStudent_EMSProvider_Program(java.lang.reflect.Method)[pri:109, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:27 IST" name="EMSStudent_EMSProvider_Program" description="Verify The Program Type and Subtype must be displayed or not based on the ApplyProgram page selection." finished-at="2022-11-09T13:57:27 IST" duration-ms="158" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyForProgramDisplayFields(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.EMSStudent_EMSProvider_Program(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ApplyForProgramDisplayFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:01 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:01 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- EMSStudent_EMSProvider_Program -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:27 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:27 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyForProgramCancel(java.lang.reflect.Method)[pri:30, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:01 IST" name="ApplyForProgramCancel" description="Verify By clicking the Cancel button in the Apply for a Program section, you should be directed to My Programs." finished-at="2022-10-13T12:57:01 IST" duration-ms="266" status="PASS">
+        <test-method signature="Verify_EMSStudent_ApplicationForms(java.lang.reflect.Method)[pri:110, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:27 IST" name="Verify_EMSStudent_ApplicationForms" description="Verify to Fill informations in the the EMS Provider program, with the subtype EMS Student" finished-at="2022-11-09T13:57:29 IST" duration-ms="2168" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyForProgramCancel(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.Verify_EMSStudent_ApplicationForms(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ApplyForProgramCancel -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:01 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:01 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- Verify_EMSStudent_ApplicationForms -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:29 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:29 IST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="WithoutValuesApplyforProgram(java.lang.reflect.Method)[pri:31, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:01 IST" name="WithoutValuesApplyforProgram" description="Verify the Apply Program without entering any information." finished-at="2022-10-13T12:57:02 IST" duration-ms="361" status="PASS">
+        <test-method signature="EMSStudent_EMSProvider_CourseSelectionDropd(java.lang.reflect.Method)[pri:111, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:29 IST" name="EMSStudent_EMSProvider_CourseSelectionDropd" description="Verify AEMT must have an active EMT License" finished-at="2022-11-09T13:57:32 IST" duration-ms="2369" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.WithoutValuesApplyforProgram(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.EMSStudent_EMSProvider_CourseSelectionDropd(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WithoutValuesApplyforProgram -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:02 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:02 IST" duration-ms="16" status="PASS">
+        </test-method> <!-- EMSStudent_EMSProvider_CourseSelectionDropd -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:32 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:32 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyProgramDropdownValues(java.lang.reflect.Method)[pri:32, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:02 IST" name="VerifyProgramDropdownValues" description="In the Apply Program Page, verify the Program dropdown values." finished-at="2022-10-13T12:57:02 IST" duration-ms="518" status="PASS">
+        <test-method signature="EMSStudent_Paramedic(java.lang.reflect.Method)[pri:112, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:32 IST" name="EMSStudent_Paramedic" description="Verify Paramedic must have an active AEMT or EMT License" finished-at="2022-11-09T13:57:34 IST" duration-ms="1684" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyProgramDropdownValues(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.EMSStudent_Paramedic(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyProgramDropdownValues -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:02 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:02 IST" duration-ms="11" status="PASS">
+        </test-method> <!-- EMSStudent_Paramedic -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:34 IST" name="methodLevelSetup" finished-at="2022-11-09T13:57:34 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="WithoutProgramDetailApplyforProgram(java.lang.reflect.Method)[pri:33, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:02 IST" name="WithoutProgramDetailApplyforProgram" description="Verify the Apply for a Program without entering a value in the Program Detail" finished-at="2022-10-13T12:57:03 IST" duration-ms="450" status="PASS">
+        <test-method signature="EMSStudent_UploadAttachments(java.lang.reflect.Method)[pri:113, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:57:34 IST" name="EMSStudent_UploadAttachments" description="Verify the upload of attachments with documents." finished-at="2022-11-09T13:58:04 IST" duration-ms="29920" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.WithoutProgramDetailApplyforProgram(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.EMSStudent_UploadAttachments(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WithoutProgramDetailApplyforProgram -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:03 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:03 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- EMSStudent_UploadAttachments -->
+        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:58:04 IST" name="methodLevelSetup" finished-at="2022-11-09T13:58:04 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyBackFlowProgramDetailsDropdownValues(java.lang.reflect.Method)[pri:34, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:03 IST" name="VerifyBackFlowProgramDetailsDropdownValues" description="In the Apply Program Page, verify the BackFlow Tester Program Detail dropdown values." finished-at="2022-10-13T12:57:03 IST" duration-ms="395" status="PASS">
+        <test-method signature="Valid_AgreeTerms_EMSStudent(java.lang.reflect.Method)[pri:114, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:58:04 IST" name="Valid_AgreeTerms_EMSStudent" description="Verify If you agree to the Terms and Conditions and click the Continue button, you must be taken to the Payment Page." finished-at="2022-11-09T13:58:12 IST" duration-ms="8231" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyBackFlowProgramDetailsDropdownValues(java.lang.reflect.Method)]]>
+                <![CDATA[public void core.Tests.IDPH.IDPHPortalTest.Valid_AgreeTerms_EMSStudent(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyBackFlowProgramDetailsDropdownValues -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:03 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:03 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyforProgramPopup(java.lang.reflect.Method)[pri:35, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:03 IST" name="ApplyforProgramPopup" description="Verify for valid Program Data and Confirm Message Popup." finished-at="2022-10-13T12:57:04 IST" duration-ms="493" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyforProgramPopup(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplyforProgramPopup -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:04 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:04 IST" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyforProgramPopupCancelbutton(java.lang.reflect.Method)[pri:36, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:04 IST" name="ApplyforProgramPopupCancelbutton" description="Verify The ApplyProgram Page must remain after clicking the Cancel button in the Popup." finished-at="2022-10-13T12:57:04 IST" duration-ms="221" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyforProgramPopupCancelbutton(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplyforProgramPopupCancelbutton -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:04 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:04 IST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyforProgramPopupOKbutton(java.lang.reflect.Method)[pri:37, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:04 IST" name="ApplyforProgramPopupOKbutton" description="Verify By clicking the OK button in the Popup, users must be taken to the Application Form Page." finished-at="2022-10-13T12:57:06 IST" duration-ms="1846" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyforProgramPopupOKbutton(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplyforProgramPopupOKbutton -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:06 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:06 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyInCompleteApplyProgramDropdownValues(java.lang.reflect.Method)[pri:38, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:06 IST" name="VerifyInCompleteApplyProgramDropdownValues" description="Verify the alert message if you try to apply for a program without completing the Application Forms." finished-at="2022-10-13T12:57:12 IST" duration-ms="5955" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyInCompleteApplyProgramDropdownValues(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyInCompleteApplyProgramDropdownValues -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:12 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:12 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyForProgramEdit(java.lang.reflect.Method)[pri:39, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:12 IST" name="ApplyForProgramEdit" description="Verify By clicking the OK button in the Incomplete popup on the Terms Page, you should be directed to My Programs." finished-at="2022-10-13T12:57:14 IST" duration-ms="1926" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyForProgramEdit(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplyForProgramEdit -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:14 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:14 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplicationFormDisplayFields(java.lang.reflect.Method)[pri:40, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:14 IST" name="ApplicationFormDisplayFields" description="Verify the display Fields on the Application Form" finished-at="2022-10-13T12:57:15 IST" duration-ms="675" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplicationFormDisplayFields(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplicationFormDisplayFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:15 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:15 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplicationFormProgramType(java.lang.reflect.Method)[pri:41, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:15 IST" name="ApplicationFormProgramType" description="Verify The Program Type and Subtype must be displayed or not based on the ApplyProgram page selection." finished-at="2022-10-13T12:57:15 IST" duration-ms="111" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplicationFormProgramType(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplicationFormProgramType -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:15 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:15 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTesterAffirmations(java.lang.reflect.Method)[pri:42, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:15 IST" name="BackflowTesterAffirmations" description="Verify the Backflow Tester program Affirmations." finished-at="2022-10-13T12:57:17 IST" duration-ms="2028" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTesterAffirmations(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTesterAffirmations -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:17 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:17 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTester_Affirmations_RequiredFields(java.lang.reflect.Method)[pri:43, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:17 IST" name="BackflowTester_Affirmations_RequiredFields" description="Verify Backflow Tester Affirmations Required Fields" finished-at="2022-10-13T12:57:18 IST" duration-ms="894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTester_Affirmations_RequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTester_Affirmations_RequiredFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:18 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:18 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTester_Affirmations_YES(java.lang.reflect.Method)[pri:44, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:18 IST" name="BackflowTester_Affirmations_YES" description="Verify If all of the affirmation questions are answered &#039;yes&#039;, then the affirmation text fields must be required." finished-at="2022-10-13T12:57:23 IST" duration-ms="4781" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTester_Affirmations_YES(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTester_Affirmations_YES -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:23 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:23 IST" duration-ms="40" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTesterThirdPartyCertification(java.lang.reflect.Method)[pri:45, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:23 IST" name="BackflowTesterThirdPartyCertification" description="Verify the Application Form Third-Party Certification Questions for Backflow Testers" finished-at="2022-10-13T12:57:24 IST" duration-ms="1072" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTesterThirdPartyCertification(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTesterThirdPartyCertification -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:24 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:24 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTester_ThirdPartyCertification_RequiredFields(java.lang.reflect.Method)[pri:46, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:24 IST" name="BackflowTester_ThirdPartyCertification_RequiredFields" description="Verify Backflow Tester Third Party Certification  Required Fields" finished-at="2022-10-13T12:57:24 IST" duration-ms="200" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTester_ThirdPartyCertification_RequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTester_ThirdPartyCertification_RequiredFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:24 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:24 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTester_ThridPartyCertification_YES(java.lang.reflect.Method)[pri:47, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:24 IST" name="BackflowTester_ThridPartyCertification_YES" description="Verify If all of the Third Party Certification questions are answered &#039;yes&#039;, then the Third Party Certification text fields must be required." finished-at="2022-10-13T12:57:27 IST" duration-ms="2702" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTester_ThridPartyCertification_YES(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTester_ThridPartyCertification_YES -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:27 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:27 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ThridPartyCertification_ExpirationDate(java.lang.reflect.Method)[pri:48, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:27 IST" name="ThridPartyCertification_ExpirationDate" description="Verify if the expiration date, entered as a date in the past, requires an alert to be displayed or not." finished-at="2022-10-13T12:57:29 IST" duration-ms="2585" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ThridPartyCertification_ExpirationDate(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ThridPartyCertification_ExpirationDate -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:29 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:29 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTesterOutOfStateCredentials(java.lang.reflect.Method)[pri:49, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:29 IST" name="BackflowTesterOutOfStateCredentials" description="Verify Back Flow Tester Out of State Credentials or Training Questions." finished-at="2022-10-13T12:57:31 IST" duration-ms="1522" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTesterOutOfStateCredentials(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTesterOutOfStateCredentials -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:31 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:31 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTester_OutOfStateCredentials_RequiredFields(java.lang.reflect.Method)[pri:50, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:31 IST" name="BackflowTester_OutOfStateCredentials_RequiredFields" description="Verify Back Flow Tester Out of State Credentials or Training  Required Fields" finished-at="2022-10-13T12:57:31 IST" duration-ms="344" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTester_OutOfStateCredentials_RequiredFields(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTester_OutOfStateCredentials_RequiredFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:31 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:31 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="BackflowTester_OutOfStateCredentials_YES(java.lang.reflect.Method)[pri:51, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:31 IST" name="BackflowTester_OutOfStateCredentials_YES" description="Verify If all of the Back Flow Tester Out of State Credentials or Training questions are answered &#039;yes&#039;, then the Back Flow Tester Out of State Credentials or Training text fields must be required." finished-at="2022-10-13T12:57:35 IST" duration-ms="3957" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.BackflowTester_OutOfStateCredentials_YES(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BackflowTester_OutOfStateCredentials_YES -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:35 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:35 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="OutOfStateCredentials_ExpirationDate(java.lang.reflect.Method)[pri:52, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:35 IST" name="OutOfStateCredentials_ExpirationDate" description="To Verify an alert message as Certification cannot be expired." finished-at="2022-10-13T12:57:38 IST" duration-ms="2546" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.OutOfStateCredentials_ExpirationDate(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OutOfStateCredentials_ExpirationDate -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:38 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:38 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="OutOfStateCredentials_InvalidCourseDate(java.lang.reflect.Method)[pri:53, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:38 IST" name="OutOfStateCredentials_InvalidCourseDate" description="To verify an alert message Out of State Courses must be valid" finished-at="2022-10-13T12:57:40 IST" duration-ms="2305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.OutOfStateCredentials_InvalidCourseDate(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OutOfStateCredentials_InvalidCourseDate -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:40 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:40 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="AttchmentDisplayFields(java.lang.reflect.Method)[pri:54, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:40 IST" name="AttchmentDisplayFields" description="Verify the attachment display fields and attachment types." finished-at="2022-10-13T12:57:42 IST" duration-ms="1981" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.AttchmentDisplayFields(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AttchmentDisplayFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:42 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:42 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="UploadAttachmentsPopupMessage(java.lang.reflect.Method)[pri:55, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:42 IST" name="UploadAttachmentsPopupMessage" description="Verify without submitting a file Try to save an attachment" finished-at="2022-10-13T12:57:43 IST" duration-ms="1118" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.UploadAttachmentsPopupMessage(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadAttachmentsPopupMessage -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:44 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:44 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="AttachmentsDelete(java.lang.reflect.Method)[pri:56, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:44 IST" name="AttachmentsDelete" description="Verify the Delete button in the attachments." finished-at="2022-10-13T12:57:44 IST" duration-ms="129" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.AttachmentsDelete(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AttachmentsDelete -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:44 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:44 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="UploadNewAttachments(java.lang.reflect.Method)[pri:57, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:44 IST" name="UploadNewAttachments" description="Verify the upload of attachments with documents." finished-at="2022-10-13T12:57:52 IST" duration-ms="8717" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.UploadNewAttachments(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadNewAttachments -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:52 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:52 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="NavTermsAndConditions(java.lang.reflect.Method)[pri:58, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:52 IST" name="NavTermsAndConditions" description="Verify If you click the Continue button, you should be taken to the Terms and Conditions page." finished-at="2022-10-13T12:57:57 IST" duration-ms="4349" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.NavTermsAndConditions(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavTermsAndConditions -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:57 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:57 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="TermsAndConditionsText(java.lang.reflect.Method)[pri:59, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:57 IST" name="TermsAndConditionsText" description="Verify Terms and Conditions Page" finished-at="2022-10-13T12:57:58 IST" duration-ms="980" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.TermsAndConditionsText(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TermsAndConditionsText -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:58 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:58 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="WithoutAgreeTerms(java.lang.reflect.Method)[pri:60, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:58 IST" name="WithoutAgreeTerms" description="Verify without agreeing to the terms and conditions, try to click the continue button." finished-at="2022-10-13T12:57:58 IST" duration-ms="309" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.WithoutAgreeTerms(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WithoutAgreeTerms -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:58 IST" name="methodLevelSetup" finished-at="2022-10-13T12:57:58 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ValidAgreeTerms(java.lang.reflect.Method)[pri:61, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:57:58 IST" name="ValidAgreeTerms" description="Verify If you agree to the Terms and Conditions and click the Continue button, you must be taken to the Payment Page." finished-at="2022-10-13T12:58:00 IST" duration-ms="1947" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ValidAgreeTerms(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidAgreeTerms -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:00 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:00 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyMakePaymentFields(java.lang.reflect.Method)[pri:62, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:00 IST" name="VerifyMakePaymentFields" description="Verify the Make Payment Page display fields." finished-at="2022-10-13T12:58:02 IST" duration-ms="2210" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyMakePaymentFields(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyMakePaymentFields -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:02 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:02 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyBackFlowPayment(java.lang.reflect.Method)[pri:63, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:02 IST" name="VerifyBackFlowPayment" description="Verify the BackFlow Tester Program Fees." finished-at="2022-10-13T12:58:04 IST" duration-ms="1041" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyBackFlowPayment(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyBackFlowPayment -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:04 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:04 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="PayLaterAlertAccept(java.lang.reflect.Method)[pri:64, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:04 IST" name="PayLaterAlertAccept" description="Verify to Accept the Alert Message by clicking the Pay Later button." finished-at="2022-10-13T12:58:05 IST" duration-ms="1132" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.PayLaterAlertAccept(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PayLaterAlertAccept -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:05 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:05 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="PayLaterAlertDismiss(java.lang.reflect.Method)[pri:65, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:05 IST" name="PayLaterAlertDismiss" description="Verify to Dismiss the Alert Message by clicking the Pay Later button." finished-at="2022-10-13T12:58:06 IST" duration-ms="1097" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.PayLaterAlertDismiss(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PayLaterAlertDismiss -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:06 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:06 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="PayLaterOptions(java.lang.reflect.Method)[pri:66, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:06 IST" name="PayLaterOptions" description="Verify the Pay Later Options" finished-at="2022-10-13T12:58:06 IST" duration-ms="541" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.PayLaterOptions(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PayLaterOptions -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:06 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:06 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="NavPayLaterDismiss(java.lang.reflect.Method)[pri:67, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:06 IST" name="NavPayLaterDismiss" description="To Verify, choose a value from the Paylater dropdown and click the Pay Later button. The system must display an alert and then click Dismiss." finished-at="2022-10-13T12:58:08 IST" duration-ms="1305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.NavPayLaterDismiss(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavPayLaterDismiss -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:08 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:08 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="NavPayLaterAccept(java.lang.reflect.Method)[pri:68, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:08 IST" name="NavPayLaterAccept" description="To Verify, choose a value from the Paylater dropdown and click the Pay Later button. The system must display an alert and you must accept it." finished-at="2022-10-13T12:58:09 IST" duration-ms="1504" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.NavPayLaterAccept(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavPayLaterAccept -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:09 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:09 IST" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="VerifyPayNow(java.lang.reflect.Method)[pri:69, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:09 IST" name="VerifyPayNow" description="Verify If you click the Pay Now button, you must be taken to another Make Payment page." finished-at="2022-10-13T12:58:17 IST" duration-ms="8103" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.VerifyPayNow(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyPayNow -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:17 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:17 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="MakePaymentAlert(java.lang.reflect.Method)[pri:70, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:17 IST" name="MakePaymentAlert" description="To Verify Make Payment Alert Popup. Accept Alert it should Navigate to Iowa Payment Website." finished-at="2022-10-13T12:58:25 IST" duration-ms="7554" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.MakePaymentAlert(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MakePaymentAlert -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:25 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:25 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="PayNowbutton(java.lang.reflect.Method)[pri:71, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:25 IST" name="PayNowbutton" description="To verify the Iowa Payment Website." finished-at="2022-10-13T12:58:28 IST" duration-ms="2815" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.PayNowbutton(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PayNowbutton -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:28 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:28 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="InvalidPaymentContinue(java.lang.reflect.Method)[pri:72, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:28 IST" name="InvalidPaymentContinue" description="Verify that you can click the Continue button without entering your payment information." finished-at="2022-10-13T12:58:30 IST" duration-ms="2016" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.InvalidPaymentContinue(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidPaymentContinue -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:30 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:30 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="InvalidCardNumPayment(java.lang.reflect.Method)[pri:73, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:30 IST" name="InvalidCardNumPayment" description="Verify to enter Invalid Card Number for the payment information." finished-at="2022-10-13T12:58:32 IST" duration-ms="2227" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.InvalidCardNumPayment(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidCardNumPayment -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:32 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:32 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ValidPaymentContinue(java.lang.reflect.Method)[pri:74, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:32 IST" name="ValidPaymentContinue" description="Verify to enter valid payment information to proceed" finished-at="2022-10-13T12:58:36 IST" duration-ms="3499" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ValidPaymentContinue(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidPaymentContinue -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:36 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:36 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ReviewPaymentConfirm(java.lang.reflect.Method)[pri:75, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:36 IST" name="ReviewPaymentConfirm" description="To Review the Payment and Click Confirm to Proceed." finished-at="2022-10-13T12:58:50 IST" duration-ms="14058" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ReviewPaymentConfirm(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReviewPaymentConfirm -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:50 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:50 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="PaymentConfirmation(java.lang.reflect.Method)[pri:76, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:50 IST" name="PaymentConfirmation" description="To Verify Payment Confirmation Page" finished-at="2022-10-13T12:58:53 IST" duration-ms="2814" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.PaymentConfirmation(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PaymentConfirmation -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:53 IST" name="methodLevelSetup" finished-at="2022-10-13T12:58:53 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="NavPaymentReceiptDetails(java.lang.reflect.Method)[pri:77, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:58:53 IST" name="NavPaymentReceiptDetails" description="To Verify If Payment Successful system must navigate to Payment Receipt Page." finished-at="2022-10-13T12:59:05 IST" duration-ms="12322" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.NavPaymentReceiptDetails(java.lang.reflect.Method) throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- NavPaymentReceiptDetails -->
-        <test-method is-config="true" signature="methodLevelSetup()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:59:05 IST" name="methodLevelSetup" finished-at="2022-10-13T12:59:05 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodLevelSetup -->
-        <test-method signature="ApplyforProgramDuplicate(java.lang.reflect.Method)[pri:78, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:59:05 IST" name="ApplyforProgramDuplicate" description="Verify to apply Duplicate BackFlow Tester Program." finished-at="2022-10-13T12:59:08 IST" duration-ms="3099" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void core.Tests.IDPH.AdperPortal.ApplyforProgramDuplicate(java.lang.reflect.Method)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ApplyforProgramDuplicate -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:core.Tests.IDPH.AdperPortal@32502377]" started-at="2022-10-13T12:59:08 IST" name="teardown" finished-at="2022-10-13T12:59:09 IST" duration-ms="582" status="PASS">
+        </test-method> <!-- Valid_AgreeTerms_EMSStudent -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:core.Tests.IDPH.IDPHPortalTest@a530d0a]" started-at="2022-11-09T13:58:12 IST" name="teardown" finished-at="2022-11-09T13:58:17 IST" duration-ms="4755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- core.Tests.IDPH.AdperPortal -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- core.Tests.IDPH.IDPHPortalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

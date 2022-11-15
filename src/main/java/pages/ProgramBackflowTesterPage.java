@@ -10,7 +10,7 @@ public class ProgramBackflowTesterPage extends BasePage {
 		super(driver);
 	}
 
-	// Backflow Tester
+	// Back flow Tester
 	By BackFlowProgram = By.xpath("//span[contains(text(),'Backflow Tester')]");
 	By ProgramDetailBackFlow = By.xpath("(//span[contains(text(),'Backflow Tester')])[2]");
 
@@ -211,6 +211,16 @@ public class ProgramBackflowTesterPage extends BasePage {
 		Assert.assertTrue(isDisplayed(JurisdictionRequired));
 		Assert.assertTrue(isDisplayed(JudgmentsRequired));
 		Assert.assertTrue(isDisplayed(LicenseRequired));
+	}
+	
+	public void No_Affirmations() {
+		
+		click(MedicalConditionNo);
+		click(IllegalNo);
+		click(MisdemeanorNo);
+		click(JurisdictionNo);
+		click(JudgmentsNo);
+		click(LicenseNo);
 	}
 
 	public void YesMedicalCondition() {

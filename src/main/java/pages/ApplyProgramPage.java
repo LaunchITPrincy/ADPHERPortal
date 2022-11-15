@@ -11,10 +11,14 @@ import org.testng.Assert;
 public class ApplyProgramPage extends BasePage {
 
 	public ApplyProgramPage(WebDriver driver) {
+		
 		super(driver);
 	}
 
+	By ndnnd = By.xpath("//div[@class=’login-page-container’]/descendant::*");
+	
 	By myPrograms = By.xpath("//h3[contains(text(),'My Programs')]");
+	
 	By MyProgramsLicense = By.xpath("//div[contains(text(),'License #')]");
 
 	By ClickApplyProgram = By.xpath("//h3[contains(text(),'Apply for a Program')]");
@@ -32,6 +36,7 @@ public class ApplyProgramPage extends BasePage {
 	By ProgramDetaiLabel = By.xpath("//mat-label[contains(text(),'Program Detail')]");
 
 	By Cancel = By.xpath("//span[contains(text(),'Cancel')]");
+	
 	By Continue = By.xpath("//span[contains(text(),'Continue')]");
 
 	By WithoutProgramPopup = By.xpath("//p[contains(text(),'Please select a Program and the Program Detail')]");
@@ -172,6 +177,9 @@ public class ApplyProgramPage extends BasePage {
 
 	By CountryTextbox = By.xpath("//input[@id='contactInformation.address.country']");
 	By CardNumTextbox = By.xpath("//input[@id='creditCardPaymMethod.creditCardNumber']");
+	
+	By SelePaymentMethod = By.id("paymentMethodRef");
+	
 	By SelectExpirationDateMonth = By.xpath("//select[@id='creditCardPaymMethod.creditCardExpMonth']");
 	By ExpirationDateMonth = By.xpath("//select[@id='creditCardPaymMethod.creditCardExpMonth']//option[@value='11']");
 	By SelectExpirationDateYear = By.xpath("//select[@id='creditCardPaymMethod.creditCardExpYear']");
@@ -239,10 +247,12 @@ public class ApplyProgramPage extends BasePage {
 	// Apply for a Program//
 
 	public void ClickMyPrograms() {
+		
 		click(myPrograms);
 	}
 
 	public void ClickApplyForAProgram() {
+		
 		click(ClickApplyProgram);
 	}
 
@@ -261,10 +271,12 @@ public class ApplyProgramPage extends BasePage {
 	}
 
 	public void ClickProgram() {
+		
 		click(ProgramDropd);
 	}
 
 	public void ClickProgramDetail() {
+		
 		click(ProgramDetailDropd);
 	}
 
@@ -412,9 +424,19 @@ public class ApplyProgramPage extends BasePage {
 		click(CourseMaterials);
 	}
 
+	public void SelectAttachmentType_InstructorMaterials () {
+		
+		click(InstructorMaterials);
+	}
+	
 	public void Enter_Description() {
 		
 		writeText(DescriptionText, "Attachment Type CEU Course Materials Upload");
+	}
+	
+	public void Enter_InstructorMaterials_Desp() {
+		
+		writeText(DescriptionText, "Attachment Type Instructor Materials Upload");
 	}
 
 	public void Click_ChooseFile() {
@@ -429,8 +451,8 @@ public class ApplyProgramPage extends BasePage {
 		waitTime();
 	}
 
-	public void IsDisplayed_View() {
-		
+	public void IsDisplayed_View() throws InterruptedException {
+		waitTime();
 		isDisplayed(ViewButton);
 	}
 
@@ -501,6 +523,17 @@ public class ApplyProgramPage extends BasePage {
 	// Make Payment//
 	public void AssertEquals_MakeAPayment() {
 		Assert.assertEquals(readText(MakePayment), "Make Payment");
+	}
+	
+	public void AssertEquals_NOPayment() {
+		
+		Assert.assertEquals(readText(ThankText),
+				"Thank you for completing your Application or Request. You may now select the Pay Now button to continue for Payment. If you have additional Licenses to Apply for, Renew, or Reactivate you can select the Pay Later button.");
+
+		Assert.assertEquals(readText(Note), "Note:");
+		Assert.assertEquals(readText(NoteText),
+				"An application is not considered submitted until payment is made. You may check the status of your License(s) by signing into the website at a Later Date and reviewing on the My Programs page. Application fees are non-refundable.");
+
 	}
 	
 	public void AssertEquals_Payment() {
@@ -672,6 +705,11 @@ public class ApplyProgramPage extends BasePage {
 	public void Assert_InvalidCardNum() {
 		
 		Assert.assertEquals(readText(InvalidCardNumError), "You have entered an invalid card number. Please try again.");
+	}
+	
+	public void Select_PaymentMethod() {
+		
+		writeText(SelePaymentMethod, "Credit/Debit Card");
 	}
 
 	public void Enter_PaymentDetails() {

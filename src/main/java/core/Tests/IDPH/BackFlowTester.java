@@ -13,7 +13,7 @@ import utils.ExtentReports.ExtentTestManager;
 import utils.Helper.Config;
 import utils.Helper.ExcelUtil;
 
-public class ApplyProgramBackFlowTester extends BaseTest {
+public class BackFlowTester extends BaseTest {
 
 	@BeforeTest
 	public void setupTestData() {
